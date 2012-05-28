@@ -9,4 +9,37 @@
         android:layout_height="wrap_content"
         android:text="@string/hello" />
 
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" 
+        android:paddingTop="20dp" >
+        
+        <Button
+            android:id="@+id/btn_get_random_word"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Random Word" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingTop="20dp" >
+
+        <TextView
+            android:id="@+id/tv_word_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Waiting for Load..."
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+
 </LinearLayout>
